@@ -14,6 +14,7 @@ using namespace std;
 ex) n = 2, r = 0, c = 2라면, half * half(1번구역 넓이 = 4) + rec_z(n - 1, r, c - half)(작은 사각형 1번 구역 = 0)
 	4 출력
 */
+
 int rec_z(int n, int r, int c)
 {
 	if(n == 0)	//base condition
