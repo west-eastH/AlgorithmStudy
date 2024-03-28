@@ -4,3 +4,4 @@ for i in range(cnt):
     line_s = line[1:]
     result = list(filter(lambda x: x > (sum(line_s) / line[0]), line_s))
     print("{:.3f}%".format(100 * len(result) / line[0]))
+
