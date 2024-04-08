@@ -7,10 +7,8 @@ input = sys.stdin.readline
 
 n, m = map(int, input().split())
 graph = []
-visited = []
 for i in range(n):
 	graph.append(list(map(int, input().split())))
-	visited.append([x > 0 for x in graph[i]])
 
 
 dx = [0, -1, 0, 1]
