@@ -13,3 +13,4 @@ for i in range(n - 1):
 	for j in range(2 * n - i * 2 - 3):
 		print("*", end='')
 	print()
+	
