@@ -7,7 +7,8 @@ def bfs():
 	queue = deque((0,0))
 
 	while (queue):
-		x = 
+		u, v = queue.popleft()
+
 
 def break_wall():
 	for i in range(n):
