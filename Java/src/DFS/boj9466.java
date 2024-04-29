@@ -28,7 +28,6 @@ public class boj9466 {
 			for (int i = 1; i <= n; i++) {
 				if (!visited[i]) dfs(i);
 			}
-
 			System.out.println(n - cnt);
 		}
 	}
