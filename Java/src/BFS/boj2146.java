@@ -1,10 +1,9 @@
 package BFS;
 
 import java.io.*;
-import java.security.spec.KeySpec;
 import java.util.*;
 
-public class Main {
+public class boj2146 {
 	static int N;
 	static int[][] map;
 	static int[][] dist;
